@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# 🏆 Quiz App - Joaquim Emanuel Vitorino de Carvalho Silva
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> Status do Projeto: Concluído ✔️
 
-## Get started
+---
 
-1. Install dependencies
+### Tabela de Conteúdos
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Demonstração da Aplicação](#demonstração-da-aplicação)
+* [Funcionalidades](#-funcionalidades)
+* [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [Como Rodar o Projeto Localmente](#️-como-rodar-o-projeto-localmente)
+* [Funcionalidade Adicional](#-funcionalidade-adicional)
+* [Autor](#-autor)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+### Descrição do Projeto
 
-   ```bash
-   npx expo start
-   ```
+Este projeto é um aplicativo de Quiz multiplataforma, desenvolvido com **React Native** e **Expo**, como projeto final do curso de programação. O aplicativo apresenta um questionário com feedback instantâneo, tela de resultados e a possibilidade de jogar novamente. Ele demonstra a integração de componentes React Native, hooks e gerenciamento de estado para criar uma experiência interativa para o usuário.
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Demonstração da Aplicação
+<p align="center">
+  <img src="link-para-seu-gif-ou-video.gif" alt="Demonstração do App" width="300"/>
+</p>
 
-## Get a fresh project
+---
 
-When you're ready, run:
+### 🚀 Funcionalidades
+
+- **Quiz Interativo:** Fluxo de perguntas e respostas com validação.
+- **Feedback Visual:** Respostas são marcadas como corretas ou incorretas instantaneamente.
+- **Placar:** Pontuação é calculada e atualizada a cada rodada.
+- **Tela de Resultados:** Ao final do quiz, uma tela exibe a pontuação final.
+- **Jogar Novamente:** O usuário pode reiniciar o quiz a partir da tela de resultados.
+- **Funcionalidade Adicional:** **Cronômetro regressivo por pergunta**.
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+- **[React Native](https://reactnative.dev/)** – Para criar a interface nativa do aplicativo.
+- **[Expo](https://expo.dev/)** – Para facilitar o desenvolvimento multiplataforma.
+- **[TypeScript](https://www.typescriptlang.org/)** – Para tipagem e segurança no código.
+
+---
+
+### ⚙️ Como Rodar o Projeto Localmente
 
 ```bash
-npm run reset-project
-```
+# 1. Clone o repositório
+$ git clone [link-do-seu-repositorio]
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# 2. Navegue até o diretório do projeto
+$ cd quiz-app
 
-## Learn more
+# 3. Instale as dependências
+$ npm install
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 4. Inicie o servidor de desenvolvimento
+$ npm start
