@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Quem é o protagonista da Parte 1: Phantom Blood?",
+    "options": ["Joseph Joestar", "Jotaro Kujo", "Jonathan Joestar", "Dio Brando"],
+    "correctAnswer": "Jonathan Joestar"
+  },
+  {
+    "question": "Qual o nome do Stand de Jotaro Kujo?",
+    "options": ["Crazy Diamond", "Star Platinum", "The World", "Killer Queen"],
+    "correctAnswer": "Star Platinum"
+  },
+  {
+    "question": "Qual parte da obra apresenta Giorno Giovanna como protagonista?",
+    "options": ["Parte 3: Stardust Crusaders", "Parte 4: Diamond is Unbreakable", "Parte 5: Golden Wind", "Parte 6: Stone Ocean"],
+    "correctAnswer": "Parte 5: Golden Wind"
+  },
+  {
+    "question": "Qual vilão famoso tem o Stand 'The World'?",
+    "options": ["Dio Brando", "Kars", "Enrico Pucci", "Yoshikage Kira"],
+    "correctAnswer": "Dio Brando"
+  }
+]

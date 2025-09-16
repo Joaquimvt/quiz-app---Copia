@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "quiz-app",
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll": "explicit",
+			"source.organizeImports": "explicit",
+			"source.sortMembers": "explicit"
+		}
+	}
+}
